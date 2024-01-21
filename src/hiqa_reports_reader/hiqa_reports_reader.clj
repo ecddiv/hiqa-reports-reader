@@ -8,7 +8,6 @@
   (println (str "Hello, " (or (:name data) "World") "!")))
 
 (defn -main
-  "I don't do a whole lot ... yet."
   [pdf-directory]
   (greet {:name "Test"})
   (process-and-write-pdfs! pdf-directory)
