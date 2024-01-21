@@ -158,7 +158,7 @@
       :date                        (when date (jt/format "YYYY-MM-dd" (jt/zoned-date-time date "UTC")))})))
 
 
-(defn- full-csv-write! [DS output-file]
+(defn prepare-table [DS]
   (-> (tc/dataset DS)
       (tc/reorder-columns [:centre-id
                            :centre-ID-OSV
@@ -171,8 +171,8 @@
                            :type-of-inspection
                            :number-of-residents-present
                            :report-id])
-      (tc/drop-missing :centre-id)
-      (tc/write! output-file)))
+      (tc/drop-missing :centre-id)))
+
 
 (defn- list-and-check-files [dir]
   (if (.exists (io/file dir))
@@ -182,16 +182,42 @@
 
 (defn- csv-timestamp []
   (-> (str/split (str (jt/instant)) #"\.")
-      first))
+      first
+      (str/replace #":" "")))
 
-(defn process-and-write-pdfs!
+(defn- full-csv-write! [DS info-file]
+  (let [timestamp (csv-timestamp)
+        main-out (str timestamp "_hiqa_reports.csv")
+        info-out (str timestamp "_table_info.csv")]
+    (tc/write! DS main-out)
+    (tc/write! info-file info-out)))
+
+
+(defn table-info [ds]
+  {:table-info (tc/info ds)
+   :row-count (tc/row-count ds)})
+
+(defn make-pdf-table [pdf-directory]
+  (let [reports (list-and-check-files pdf-directory)
+        table (pmap process-pdf reports)
+        table-ds (prepare-table table)]
+    {:table table-ds
+     :info (table-info (-> table-ds
+                           (tc/drop-columns :observations)))}))
+
+(defn process-and-write-outputs!
   "Entry point. Takes a directory of pdfs
   and processes them into a table,
   which is then written to 'output-file'"
-  [pdf-directory]
-  (let [reports (list-and-check-files pdf-directory)
-        table (pmap process-pdf reports)
-        output-file (str (csv-timestamp) "_hiqa_reports.csv")]
-    (do
-      (full-csv-write! table output-file)
-      (println "File written to " output-file))))
+  [table-ds info-ds]
+  (do
+    (full-csv-write! table-ds info-ds)
+    (println "Done")))
+
+(comment
+  (let [{:keys [table info]} (make-pdf-table "reports")
+        {:keys [row-count table-info]} info]
+    (process-and-write-outputs! table table-info)
+    (println (str "Done. " row-count " reports processed."))))
+
+

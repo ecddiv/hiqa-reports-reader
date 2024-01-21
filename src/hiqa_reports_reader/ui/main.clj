@@ -39,8 +39,11 @@
                                           :text (str file)}]}
                              {:fx/type :button
                               :text "Run"
-                              :on-action (fn [_] (do (reader/process-and-write-pdfs! (:file @*state))
-                                                     (swap! *state assoc :logs "Done.")))}
+                              :on-action (fn [_]
+                                           (let [{:keys [table info]} (reader/make-pdf-table (:file @*state))
+                                                 {:keys [row-count table-info]} info]
+                                             (do (reader/process-and-write-pdfs! table table-info)
+                                                 (swap! *state assoc :logs (str "Done. " row-count " files processed.")))))}
                              {:fx/type :label
                               :text (str (:logs @*state))}]}}})
 
