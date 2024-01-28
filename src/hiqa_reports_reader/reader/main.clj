@@ -8,12 +8,6 @@
    [hiqa-reports-reader.reader.datasets :as ds]
    [hiqa-reports-reader.reader.parsers :as p]))
 
-(def temp-sample-pdfs (take 1000 (drop 1000 (rest (file-seq (clojure.java.io/file "inspection_reports"))))))
-
-(def temp-ds
-  (ds/prepare-main-table
-   (pmap p/process-pdf temp-sample-pdfs)))
-
 
 (defn- list-and-check-files [dir]
   (if (.exists (io/file dir))

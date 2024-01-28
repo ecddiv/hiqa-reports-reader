@@ -53,9 +53,9 @@
                              {:fx/type :button
                               :text "Run"
                               :on-action (fn [_]
-                                           (let [{:keys [table info]} (reader/make-pdf-table (:file @*state))
+                                           (let [{:keys [table table-recents info]} (reader/make-pdf-table (:file @*state))
                                                  {:keys [row-count table-info]} info]
-                                             (do (reader/process-and-write-outputs! table table-info)
+                                             (do (reader/process-and-write-outputs! table table-recents table-info)
                                                  (swap! *state assoc :logs (str "Done. " row-count " files processed.")))))}
                              {:fx/type :label
                               :text (str (:logs @*state))}]}}})
