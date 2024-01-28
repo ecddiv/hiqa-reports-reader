@@ -32,6 +32,8 @@
 
 (defn prepare-main-table [DS]
   (-> (tc/dataset DS)
+      (tc/drop-missing :centre-id)
+      aggregate-compliance-levels
       (tc/reorder-columns [:centre-id
                            :centre-ID-OSV
                            :fieldwork-ID
@@ -46,8 +48,11 @@
                            :report-id
                            :about
                            :respite-category
-                           :observations])
-      (tc/drop-missing :centre-id)))
+                           :observations
+                           :num-compliant
+                           :num-notcompliant
+                           :num-substantiallycompliant])))
+
 
 
 
