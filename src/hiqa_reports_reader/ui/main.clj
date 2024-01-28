@@ -1,10 +1,13 @@
 (ns hiqa-reports-reader.ui.main
-  (:require [cljfx.api :as fx]
-            [hiqa-reports-reader.reader.main :as reader])
-
-  (:import [javafx.stage DirectoryChooser]
-           [javafx.event ActionEvent]
-           [javafx.scene Node]))
+  (:gen-class)
+  (:require
+   [cljfx.api :as fx]
+   [clojure.java.io :as io]
+   [hiqa-reports-reader.reader.main :as reader])
+  (:import
+   (javafx.event ActionEvent)
+   (javafx.scene Node)
+   (javafx.stage DirectoryChooser)))
 
 (def *state
   (atom {:file nil
@@ -18,6 +21,14 @@
                   (.setTitle "Select folder containing report pdfs"))]
     (when-let [file (.showDialog chooser window)]
       {:state {:file file}})))
+
+(defn count-files [file]
+  (->> file
+       io/file
+       file-seq
+       rest
+       (filter #(re-find #".pdf" (str %)))
+       count))
 
 (defn root-view [{:keys [file]}]
   {:fx/type :stage
@@ -36,13 +47,15 @@
                                           :text "Open file..."
                                           :on-action {::event ::select-directory}}
                                          {:fx/type :label
-                                          :text (str file)}]}
+                                          :text (str file)}
+                                         {:fx/type :label
+                                          :text (when file (str "Folder contains " (count-files file) " pdfs."))}]}
                              {:fx/type :button
                               :text "Run"
                               :on-action (fn [_]
                                            (let [{:keys [table info]} (reader/make-pdf-table (:file @*state))
                                                  {:keys [row-count table-info]} info]
-                                             (do (reader/process-and-write-pdfs! table table-info)
+                                             (do (reader/process-and-write-outputs! table table-info)
                                                  (swap! *state assoc :logs (str "Done. " row-count " files processed.")))))}
                              {:fx/type :label
                               :text (str (:logs @*state))}]}}})
