@@ -3,7 +3,7 @@
   (:require [clojure.tools.build.api :as b]))
 
 (def lib 'hiqa-reports-reader.hiqa-reports-reader)
-(def version "0.1.0-SNAPSHOT")
+(def version "0.1.0")
 (def main 'hiqa-reports-reader.hiqa-reports-reader)
 (def class-dir "target/classes")
 
