@@ -45,9 +45,7 @@
                            (tc/drop-columns :observations)))}))
 
 (defn process-and-write-outputs!
-  "Entry point. Takes a directory of pdfs
-  and processes them into a table,
-  which is then written to 'output-file'"
+  "Entry point."
   [table-ds table-recents-ds info-ds]
   (do
     (full-csv-write! table-ds table-recents-ds info-ds)
