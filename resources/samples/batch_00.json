@@ -1,0 +1,2602 @@
+[
+  {
+    "centre-id": 8350,
+    "report-id": "8350-20230327",
+    "response": {
+      "id": "chatcmpl-8UiFgDyW0P4QGWuIM4mhkhRXdHX2d",
+      "object": "chat.completion",
+      "created": 1702330636,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:summary \"Residents were generally satisfied with the service provided, but improvements were needed in various areas. Staff members were observed to interact well with residents, and the premises were clean and well-equipped. Feedback from residents and families was generally positive.\" :rating \"positive\" :keywords [\"service\" \"improvements\" \"staff\" \"clean\" \"positive\" ] :phrases [\"meeting two residents\" \"observed to engage\" \"clean and tidy\" ] }"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 725,
+        "completion_tokens": 94,
+        "total_tokens": 819
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 1725,
+    "report-id": "1725-20201116",
+    "response": {
+      "id": "chatcmpl-8UiFlF7f4VcYKQe7DFahPZA82FyNf",
+      "object": "chat.completion",
+      "created": 1702330641,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\" :keywords [\"support\" \"happy\" \"involved\" \"safety guidelines\" \"staffing arrangements\"] :phrases [\"plans for future needs\" \"happy with shared bedrooms\" \"proactive in safety measures\" \"resident-led service\" \"friendly and pleasant interactions\"] :summary \"Residents at this centre spoke highly of the support they receive from staff and expressed their happiness living together. They were involved in their local community, followed safety guidelines, and praised the staffing arrangements. Overall, the atmosphere was homely and friendly, with a resident-led approach to independence.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 631,
+        "completion_tokens": 120,
+        "total_tokens": 751
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 7717,
+    "report-id": "7717-20220628",
+    "response": {
+      "id": "chatcmpl-8UiFpPQGmwSm3AIW8bW4Dmov5z2nV",
+      "object": "chat.completion",
+      "created": 1702330645,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\", :keywords [\"good quality of life\", \"supported\", \"high levels of compliance\", \"clean spacious and maintained\", \"residents meetings\"], :phrases [\"residents appeared to have a good quality of life\", \"staff team who knew them well\", \"high levels of compliance found on this inspection\", \"clean spacious and maintained to a very high standard\", \"residents meetings were held every week\"], :summary \"Overall, residents have a good quality of life in the centre and are well-supported by a staff team. The centre is clean and well-maintained, and residents have a say in meals, activities, and other decisions. Meetings are held regularly to ensure their needs are met.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1320,
+        "completion_tokens": 146,
+        "total_tokens": 1466
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 5549,
+    "report-id": "5549-20220105",
+    "response": {
+      "id": "chatcmpl-8UiFvQHblppZK6jwDwTwx1H4aMUOz",
+      "object": "chat.completion",
+      "created": 1702330651,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"neutral\",\n :keywords [\"infection prevention\", \"control\", \"improvements\", \"maintenance\", \"cleaning\"],\n :phrases [\"evidence that the registered provider had put in place some systems and arrangements which were consistent with the National Standards for infection prevention and control in community services\", \"improvements were required in relation to the maintenance of the premises and the arrangements for the monitoring of infection prevention and control\", \"adequate resources in place to clean the centre\"],\n :summary \"The inspection found that while some infection prevention and control measures were in place, improvements were needed in maintenance and monitoring. The cleaning procedures also needed to be addressed, although adequate resources were available.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 980,
+        "completion_tokens": 140,
+        "total_tokens": 1120
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 3769,
+    "report-id": "3769-20220223",
+    "response": {
+      "id": "chatcmpl-8UiG0yDxn1RdTixSqjWh7v4EaUTZk",
+      "object": "chat.completion",
+      "created": 1702330656,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\", \n :keywords [\"respite centre\", \"children\", \"care\", \"support\", \"family\"], \n :phrases [\"good quality care\", \"positive inspection\", \"loving caring patient\", \"collaborative approach\", \"child-led in collaboration with their families\"], \n :summary \"This respite centre for children received a positive inspection, with good quality care and a collaborative approach. Staff were described as loving, caring, and supportive by family members.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1185,
+        "completion_tokens": 98,
+        "total_tokens": 1283
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 3088,
+    "report-id": "3088-20210713",
+    "response": {
+      "id": "chatcmpl-8UiG4t6JbUcUd9JUKvy2dBC4WWGSA",
+      "object": "chat.completion",
+      "created": 1702330660,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\", :keywords [\"well run\", \"high standard of care\", \"valued views\", \"enjoying good quality of life\", \"happy living\"], :phrases [\"high standard of care and support\", \"valued the views of residents\", \"enjoying a good quality of life\", \"happy living in the centre\", \"complimentary of the staff team\"], :summary \"The residents in the centre were well cared for and enjoyed a good quality of life. They felt valued, safe, and happy living in the centre, and had developed strong relationships with the staff team. Overall, the inspection was positive with high levels of compliance observed.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1097,
+        "completion_tokens": 137,
+        "total_tokens": 1234
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 5299,
+    "report-id": "5299-20230414",
+    "response": {
+      "id": "chatcmpl-8UiGAMvLQ4j084jGvcRjivFspj1ge",
+      "object": "chat.completion",
+      "created": 1702330666,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\" :keywords [\"clean\" \"homely\" \"comfortable\" \"well-equipped\" \"supportive\"] :phrases [\"nicely decorated and furnished\" \"good selection and variety of food and drinks\" \"Residents felt safe and supported\"] :summary \"Overall, residents felt that the centre was clean, homely, comfortable, and well-equipped. They had a good selection of food and drinks and felt safe and supported. However, some maintenance and accessibility issues were identified.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1035,
+        "completion_tokens": 101,
+        "total_tokens": 1136
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 1507,
+    "report-id": "1507-20210519",
+    "response": {
+      "id": "chatcmpl-8UiGJYVbKNE7MJbUTen5zMfnLajrC",
+      "object": "chat.completion",
+      "created": 1702330675,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\", \n :keywords [\"enjoy\", \"quality of life\", \"supported\", \"wellbeing\", \"improvements\"], \n :phrases [\"good quality of life\", \"supported to enjoy\", \"improvements were required\"], \n :summary \"The residents were supported to enjoy a good quality of life and their wellbeing was actively promoted. Improvements are needed in personal planning to fully support residents in achieving their chosen goals.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 812,
+        "completion_tokens": 91,
+        "total_tokens": 903
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 2357,
+    "report-id": "2357-20210526",
+    "response": {
+      "id": "chatcmpl-8UiGMJlR03ipGweLl08L9z6f36Lm5",
+      "object": "chat.completion",
+      "created": 1702330678,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\" :keywords [\"comfortable\" \"content\" \"supportive\" \"homely\" \"infection control\"] :phrases [\"residents appeared comfortable and content\" \"staff supporting residents in a kind and respectful manner\" \"good infection control practices in place\" \"friendly and homely environment\" \"governance and management arrangements positively impacted\"] :summary \"Residents appeared comfortable and content in their home, with staff providing supportive and respectful care. The inspection also found good infection control practices and positive governance and management arrangements that impacted the quality and safety of the service being delivered.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 441,
+        "completion_tokens": 121,
+        "total_tokens": 562
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 5835,
+    "report-id": "5835-20201209",
+    "response": {
+      "id": "chatcmpl-8UiGRNemk90ltstDVALiFCJd2y9wM",
+      "object": "chat.completion",
+      "created": 1702330683,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\" :keywords [\"residents\" \"inspector\" \"safe space\" \"concerns\" \"support\"] :phrases [\"loved their home\" \"felt unsafe\" \"safe space\" \"staff support\" \"care and compassion\"] :summary \"Residents expressed love for their home but also raised concerns about feeling unsafe at times due to the behavior of another resident. They mentioned having a 'safe space' in their bedroom and feeling comfortable sharing concerns with familiar staff. However, they also noted that they may not feel comfortable sharing concerns with unfamiliar staff. The residents also mentioned feeling supported within the center and having positive relationships with their peers, and the inspector observed staff providing care and compassion.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 434,
+        "completion_tokens": 144,
+        "total_tokens": 578
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 5729,
+    "report-id": "5729-20210318",
+    "response": {
+      "id": "chatcmpl-8UiGXgatHeSlxd4OQNo9wO8ckbt3e",
+      "object": "chat.completion",
+      "created": 1702330689,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\", \n:keywords [\"well run centre\", \"high standard of care\", \"person-centred care\", \"good quality of life\", \"positive feedback\"], \n:phrases [\"very well run centre\", \"high standard of care\", \"care and support\", \"resident group\", \"very satisfied with the service\"], \n:summary \"Overall, the residents express a positive sentiment towards the centre, highlighting the high standard of care and support provided. They enjoy a good quality of life and appreciate the person-centred approach. The feedback from residents and their families is very positive, indicating their satisfaction with the services and care received. There are some areas identified for improvement, but the overall sentiment is positive.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1583,
+        "completion_tokens": 145,
+        "total_tokens": 1728
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 3364,
+    "report-id": "3364-20210805",
+    "response": {
+      "id": "chatcmpl-8UiGc7GNL0Hn3etTezTpot7eAFon2",
+      "object": "chat.completion",
+      "created": 1702330694,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\", :keywords [\"good quality care\", \"comfortable\", \"resident's satisfaction\", \"person-centred service\", \"empathetic staff\"], :phrases [\"evidence of a good quality, person-centred service\", \"residents were comfortable in their home\", \"resident spoke of his satisfaction with his home\", \"staff showed empathy and respect\", \"residents were supported in their daily activities\"], :summary \"The residents in this centre are satisfied and comfortable, receiving good quality care in a person-centred environment. The staff are empathetic and respectful, supporting the residents in their daily activities.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1493,
+        "completion_tokens": 126,
+        "total_tokens": 1619
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 2890,
+    "report-id": "2890-20230216",
+    "response": {
+      "id": "chatcmpl-8UiGhMB4dasONTRvCy1Oiyk8H7Kmi",
+      "object": "chat.completion",
+      "created": 1702330699,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"negative\" :keywords [\"infection prevention and control\" \"compliance\" \"cleaning\" \"upkeep\" \"management\"] :phrases [\"provider had not fully complied\" \"resident informed the inspector\" \"upkeep and repair needed\" \"upgrade some of the facilities\" \"malodour coming from the bathroom\"] :summary \"The residents expressed concerns about the lack of compliance with infection prevention and control regulations, the poor upkeep and repair of the premises, and the delay in upgrading facilities. The overall rating is negative due to these issues.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1687,
+        "completion_tokens": 114,
+        "total_tokens": 1801
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 3753,
+    "report-id": "3753-20220602",
+    "response": {
+      "id": "chatcmpl-8UiGm3EzZIuwaeJKBFlNsKzgM5KKX",
+      "object": "chat.completion",
+      "created": 1702330704,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\", \n :keywords [\"pleasant\", \"supported\", \"happy\", \"dedicated staff team\", \"good quality of life\"], \n :phrases [\"residents greeted the inspector\", \"residents are relaxed, comfortable and content\", \"positive transition for the resident\"], \n :summary \"Residents in this designated centre are supported and happy, with a dedicated staff team. They have a good quality of life. Some actions are needed in terms of admissions, governance, management, positive behavior support, personal planning, and residents' rights.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1156,
+        "completion_tokens": 111,
+        "total_tokens": 1267
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 3616,
+    "report-id": "3616-20220825",
+    "response": {
+      "id": "chatcmpl-8UiGrUynKtl8ObZ8oMffUW3C0OCTT",
+      "object": "chat.completion",
+      "created": 1702330709,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\" :keywords [\"happy\" \"independent\" \"choices\" \"activities\" \"satisfied\"] :phrases [\"happy living\" \"important being independent\" \"making choices\" \"high levels of satisfaction\" \"access to activities\"] :summary \"Residents are happy and satisfied with their living arrangements and the activities provided. They value their independence and the ability to make choices in their daily lives.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1495,
+        "completion_tokens": 84,
+        "total_tokens": 1579
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 5333,
+    "report-id": "5333-20220413",
+    "response": {
+      "id": "chatcmpl-8UiGuML3iGSKHHIe41Gjj4Xp7YYg5",
+      "object": "chat.completion",
+      "created": 1702330712,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\" :keywords [\"enjoying\" \"supported\" \"clean\" \"spacious\" \"well-equipped\"] :phrases [\"good quality life\" \"supported to make choices\" \"fire safety risk\" \"adequate communal and private spaces\" \"resident spoke about outings\"] :summary \"Residents at Rossbarna are enjoying a good quality life, supported to make choices, and are involved in enjoyable activities. The houses are clean, spacious, well-equipped, and the residents have access to adequate communal and private spaces. The overall sentiment of the residents is positive.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 791,
+        "completion_tokens": 118,
+        "total_tokens": 909
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 5801,
+    "report-id": "5801-20221025",
+    "response": {
+      "id": "chatcmpl-8UiGz6g1jBKOce3JBkGN7tsDNgxJi",
+      "object": "chat.completion",
+      "created": 1702330717,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\", :keywords [\"inspection\", \"residents\", \"staff\", \"comfortable\", \"clean\"], :phrases [\"provider had put in place in relation to infection prevention and control\", \"residents were receiving a good quality service\", \"staff in this centre knew residents well\"], :summary \"The inspection found that the provider has implemented effective infection prevention and control measures, and residents are comfortable and well-cared for in clean and personalized environments.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 768,
+        "completion_tokens": 94,
+        "total_tokens": 862
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 1828,
+    "report-id": "1828-20211115",
+    "response": {
+      "id": "chatcmpl-8UiH3HvhdOcx4fTTjpzli9ow8qnIC",
+      "object": "chat.completion",
+      "created": 1702330721,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\" :keywords [\"respite service\" \"familiar\" \"comfortable\" \"homely\" \"caring\"] :phrases [\"greeted by staff members\" \"settled in very quickly\" \"familiar with their surroundings\" \"comfortable with the staff\" \"enjoying their interactions\"] :summary \"Residents of this respite service are familiar and comfortable with the staff, quickly settling in and enjoying their interactions. Families are complimentary about the caring and well-managed service offered.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 758,
+        "completion_tokens": 106,
+        "total_tokens": 864
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 5511,
+    "report-id": "5511-20220314",
+    "response": {
+      "id": "chatcmpl-8UiH7XeNac8A7tR8fPlOsOYS80H0R",
+      "object": "chat.completion",
+      "created": 1702330725,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\" \n:keywords [\"appropriate care and support\" \"engaging activities\" \"warm and considerate interactions\" \"clean premises\" \"handwashing facilities\"]\n:phrases [\"residents received appropriate care and support\" \"residents were supported to engage in activities\" \"observed warm and considerate interactions between staff and residents\" \"premises was suitably clean\" \"a number of handwashing facilities\"]\n:summary \"The residents expressed their satisfaction with the appropriate care and support they received, as well as their engagement in various activities. They also appreciated the warm and considerate interactions with the staff members and the cleanliness of the premises, which provided them with a homely atmosphere and the necessary facilities for hand hygiene.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 536,
+        "completion_tokens": 150,
+        "total_tokens": 686
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 1816,
+    "report-id": "1816-20210427",
+    "response": {
+      "id": "chatcmpl-8UiHDwXvh9nKBWmCNeatQnvqcwmyI",
+      "object": "chat.completion",
+      "created": 1702330731,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\", :keywords [\"residents\", \"staff\", \"support\", \"care\", \"respect\"], :phrases [\"very happy in their home\", \"felt safe in the centre\", \"treated with respect by the staff\"], :summary \"The residents spoke very positively about the staff and support they received, feeling happy and safe in their home. They were well-informed about COVID 19 and their rights, and were treated with respect and care by the staff.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 514,
+        "completion_tokens": 98,
+        "total_tokens": 612
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 2340,
+    "report-id": "2340-20210826",
+    "response": {
+      "id": "chatcmpl-8UiHHEKe4EkHoOOdeV00joS586sMm",
+      "object": "chat.completion",
+      "created": 1702330735,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"negative\" \n:keywords [\"residents\" \"support\" \"safety\" \"fire\" \"infection control\"] \n:phrases [\"good ratio of staff to residents\" \"residents being well cared for and supported\" \"critical issues with the overall quality and safety\" \"failure of the provider to take action\" \"significant failings in the provider's overall governance\"]\n:summary \"Residents in the centre were well supported and engaged in activities, but there were critical issues with the overall quality and safety of the service. The provider failed to ensure fire safety measures and infection control precautions were in place, indicating significant failings in the provider's governance.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 678,
+        "completion_tokens": 136,
+        "total_tokens": 814
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 2672,
+    "report-id": "2672-20211111",
+    "response": {
+      "id": "chatcmpl-8UiHNHO5FSY3sLdieLakk9DU7UVzE",
+      "object": "chat.completion",
+      "created": 1702330741,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\", :keywords [\"residents\", \"quality of life\", \"activities\", \"staff\", \"preferences\"], :phrases [\"good quality of life\", \"supported by staff\", \"observed spending time and interacting warmly with residents\"], :summary \"The residents had a good quality of life and were supported by staff to engage in activities they enjoyed. Staff were observed spending time with residents and meeting their preferences.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 776,
+        "completion_tokens": 86,
+        "total_tokens": 862
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 7634,
+    "report-id": "7634-20200821",
+    "response": {
+      "id": "chatcmpl-8UiHQFYs9mtE1njYtgN6JAI35210E",
+      "object": "chat.completion",
+      "created": 1702330744,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\" \n :keywords [\"homely environment\" \"jovial atmosphere\" \"self-contained living area\" \"family photographs\" \"personal items\"]\n :phrases [\"excited to go horse riding\" \"start online shopping\" \"recently started going to the local swimming pool\"]\n :summary \"The residents expressed their joy and satisfaction with the homely environment and jovial atmosphere of the home. They proudly showed their self-contained living areas, decorated with personal items and family photographs. They were excited about their activities like horse riding and going to the swimming pool. Overall, the residents and staff had a positive and respectful interaction during the inspection.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 379,
+        "completion_tokens": 133,
+        "total_tokens": 512
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 3690,
+    "report-id": "3690-20200917",
+    "response": {
+      "id": "chatcmpl-8UiHV72G8Mh6CZE081uEr9xlBrFMz",
+      "object": "chat.completion",
+      "created": 1702330749,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\" :keywords [\"happy\" \"support\" \"comfortable\" \"friendly\" \"renovations\"] :phrases [\"very happy in their home\" \"staff were seen engaging with residents in a positive manner\" \"Residents were seen going about their day without undue restriction\" \"observed to be relaxed and enjoying their preferred TV programmes\" \"liked their peers and they said the staff were nice and helpful to them\" ] :summary \"Residents in the centre are happy and supported by friendly staff. They feel comfortable, enjoy their home and the recent renovations, but are frustrated by the impact of the COVID-19 pandemic on their ability to meet their parents.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 464,
+        "completion_tokens": 137,
+        "total_tokens": 601
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 3556,
+    "report-id": "3556-20221003",
+    "response": {
+      "id": "chatcmpl-8UiHbgasb7tmgdOYciwJ3yc23ZKn4",
+      "object": "chat.completion",
+      "created": 1702330755,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\", :keywords [\"residents\", \"inspection\", \"survey\", \"support\", \"routines\"], :phrases [\"residents described what they liked about their home\" \"residents were supported with their individual routines\" \"residents commented on their experiences in the service\"], :summary \"During the inspection, residents were overall satisfied with their home and the support they received. They enjoyed their individual routines and activities, but some areas of the center were in need of repair or upgrade work.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 901,
+        "completion_tokens": 103,
+        "total_tokens": 1004
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 1932,
+    "report-id": "1932-20210428",
+    "response": {
+      "id": "chatcmpl-8UiHfPCp8jXTMtFYfMQPhV4TXYBz9",
+      "object": "chat.completion",
+      "created": 1702330759,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\", :keywords [\"health and wellbeing\", \"care\", \"happy\", \"relaxed\", \"supporting\"], :phrases [\"promoted\", \"person-centred manner\", \"resident was happy\", \"families expressed satisfaction\", \"staff appeared knowledgeable\"], :summary \"The residents are happy and relaxed in their environment, with staff supporting them and promoting their health and wellbeing. Families expressed satisfaction with the service, and staff appeared knowledgeable about residents' needs and preferences.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 975,
+        "completion_tokens": 98,
+        "total_tokens": 1073
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 7730,
+    "report-id": "7730-20221017",
+    "response": {
+      "id": "chatcmpl-8UiHjuw3UPHKSgrXNKediJgdEwHIh",
+      "object": "chat.completion",
+      "created": 1702330763,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\" \n:keywords [\"good quality of life\" \"respect\" \"support\" \"clean\" \"welcoming\"] \n:phrases [\"residents had a good quality of life\" \"staff treated the residents with respect\" \"the house was clean, tidy and welcoming\"] \n:summary \"Residents in this centre have a good quality of life, are treated with respect and have supportive staff. The house is clean, tidy, and welcoming.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 892,
+        "completion_tokens": 94,
+        "total_tokens": 986
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 4136,
+    "report-id": "4136-20220929",
+    "response": {
+      "id": "chatcmpl-8UiHnP9HHJYDjHPJm2uC0yru1CbZd",
+      "object": "chat.completion",
+      "created": 1702330767,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\" :keywords [\"support\", \"choice\", \"inclusive\", \"happy\", \"personal\"] :phrases [\"good quality life\", \"evidence-based care and support\", \"residents' needs\", \"happy living\", \"satisfied with the quality of care\"] :summary \"Overall, residents in the designated centre are supported and happy, with a good quality of life. The care and support provided is satisfactory, and the residents feel safe and have personal belongings in their rooms.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1326,
+        "completion_tokens": 101,
+        "total_tokens": 1427
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 5728,
+    "report-id": "5728-20210505",
+    "response": {
+      "id": "chatcmpl-8UiHrtBnsPjxs8pVx3Gf5XHOONvIX",
+      "object": "chat.completion",
+      "created": 1702330771,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\", :keywords [\"happy\", \"content\", \"comfortable\", \"support\", \"residents\"], :phrases [\"good standard of care and support\", \"happy in their home\", \"comfortable and content\", \"kind and respectful interactions\", \"supported to make choices\"], :summary \"Residents appeared to be happy, content and comfortable in their home. They were satisfied with the support they received, and the staff showed kind and respectful interactions with them on a daily basis. Residents were also actively involved in the day-to-day management of their home.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 972,
+        "completion_tokens": 115,
+        "total_tokens": 1087
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 4041,
+    "report-id": "4041-20220126",
+    "response": {
+      "id": "chatcmpl-8UiHw8cRPAcmn9EOXRFh4z2mmu8LB",
+      "object": "chat.completion",
+      "created": 1702330776,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\" \n :keywords [\"improvements\" \"governance\" \"management\" \"residents' rights\" \"individual assessments\"]\n :phrases [\"very satisfied with the services\" \"quiet independent life\" \"clean and homely living environment\"]\n :summary \"The residents expressed satisfaction with the services and felt safe in the centre, although there is a need for improvement in governance, management, and individual assessments. Overall, there have been improvements in the quality of services provided, creating a clean and comfortable living environment.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 891,
+        "completion_tokens": 109,
+        "total_tokens": 1000
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 5680,
+    "report-id": "5680-20220426",
+    "response": {
+      "id": "chatcmpl-8UiI07iAhVbI0IuEJct6W0e1Skoqe",
+      "object": "chat.completion",
+      "created": 1702330780,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\" \n :keywords [\"inspection\" \"compliance\" \"individualised service\" \"safety\" \"welfare\"]\n :phrases [\"infection prevention and control\" \"visibly clean\" \"homely aspects\"]\n :summary \"This unannounced inspection found that the centre provided residents with an individualised service, ensuring their safety and welfare. The centre was found to be clean and had many homely aspects, creating a friendly and warm atmosphere.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1196,
+        "completion_tokens": 96,
+        "total_tokens": 1292
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 7984,
+    "report-id": "7984-20210914",
+    "response": {
+      "id": "chatcmpl-8UiI4wFe83iLwJWGpWu2rOECbn1AO",
+      "object": "chat.completion",
+      "created": 1702330784,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\", :keywords [\"good service\", \"well-managed service\", \"good quality of life\", \"independence and autonomy\", \"infection prevention and control\"], :phrases [\"resident's personal plans\", \"bright, well-ventilated and visibly clean\", \"independence and choice were safely facilitated\"], :summary \"Residents expressed satisfaction with the service, citing good quality of life, independence, and support based on individual needs. The inspection found the service to be well-managed and in compliance with regulations, with good infection prevention and control measures in place.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1298,
+        "completion_tokens": 117,
+        "total_tokens": 1415
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 3002,
+    "report-id": "3002-20230421",
+    "response": {
+      "id": "chatcmpl-8UiI9MAFFaMAQssW8UAtUvm8weVh4",
+      "object": "chat.completion",
+      "created": 1702330789,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\", :keywords [\"happy\", \"residents\", \"service\", \"staff\", \"positive outcomes\"], :phrases [\"looking forward to\", \"resident appeared to be\", \"residents seemed happy\", \"staff felt that\", \"residents were supported to maintain links with friends and family\"], :summary \"The residents in this centre are happy and satisfied with the service provided. They enjoy engaging in activities, maintaining relationships with friends and family, and have positive outcomes. The staff is consistent and ensures safe staffing levels. Overall, the residents receive good person-centred care.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 905,
+        "completion_tokens": 119,
+        "total_tokens": 1024
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 3717,
+    "report-id": "3717-20230411",
+    "response": {
+      "id": "chatcmpl-8UiID0iB7S1U4fkjKLlDW2uSVTiXS",
+      "object": "chat.completion",
+      "created": 1702330793,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\", :keywords [\"person-centred service\", \"minor improvements\", \"residents' respite break\", \"communication\", \"support needs\"], :phrases [\"receiving a person-centred service\", \"minor improvements required\", \"residents' respite break\", \"comfortably used their environment\", \"familiar with the residents' support needs\"], :summary \"Overall, residents were receiving a person-centred service that met their needs. Some minor improvements were required in relation to fire precautions.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 917,
+        "completion_tokens": 104,
+        "total_tokens": 1021
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 4104,
+    "report-id": "4104-20211111",
+    "response": {
+      "id": "chatcmpl-8UiIHTd951H2IAkzDmeYtgae5LTCR",
+      "object": "chat.completion",
+      "created": 1702330797,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\" :keywords [\"person-centred service\" \"equipped\" \"fire precautions\" \"infection prevention and control measures\" \"risk management\"] :phrases [\"receiving a person-centred service\" \"equipped to meet residents' individually assessed needs\" \"Improvements were required\" \"the risk of a COVID-19 outbreak\" \"clean and well-equipped\"] :summary \"Inspectors found that residents were receiving a person-centred service and that the houses were equipped to meet residents' individually assessed needs. Some improvements were required in fire precautions, infection prevention and control measures, and risk management. Overall, the designated center was clean and well-equipped.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1084,
+        "completion_tokens": 137,
+        "total_tokens": 1221
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 1515,
+    "report-id": "1515-20210331",
+    "response": {
+      "id": "chatcmpl-8UiIMWVSl84sVudmZtxsQ2a4t7j7g",
+      "object": "chat.completion",
+      "created": 1702330802,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\", \n :keywords [\"well-managed service\", \"resident well-being\", \"good quality of life\", \"improvement needed\", \"positive feedback\"], \n :phrases [\"promoting resident well-being\", \"good quality of support\", \"staff motivated and encouraged them\"], \n :summary \"This was a well-managed service that focused on promoting resident well-being and provided a good quality of life. Residents expressed positive feedback and satisfaction with the support they received. Some improvements were needed in fire safety arrangements and personal plans, but overall the service was rated positively.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1644,
+        "completion_tokens": 118,
+        "total_tokens": 1762
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 8031,
+    "report-id": "8031-20220222",
+    "response": {
+      "id": "chatcmpl-8UiIRzMUxaENvKBjzddqdP1csrpdZ",
+      "object": "chat.completion",
+      "created": 1702330807,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\" :keywords [\"residents\" \"care and support\" \"opportunities\" \"personalized\" \"staff interactions\"] :phrases [\"good quality of care and support\" \"broadening opportunities for residents\" \"focus on residents' preferences and needs\" \"comfortable, modern and spacious\" \"maintain links with families and friends\"] :summary \"Residents in the centre were provided with a good quality of care and support, with a focus on broadening opportunities for them to participate in both their home life and the community, based on their preferences and needs. The staff interactions with residents were kind and respectful, and the centre was comfortable, modern, and spacious. Residents were also supported to maintain links with their families and friends.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 859,
+        "completion_tokens": 154,
+        "total_tokens": 1013
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 5874,
+    "report-id": "5874-20210610",
+    "response": {
+      "id": "chatcmpl-8UiIXqxLRiwIapGMCm9XOjt5CgwtY",
+      "object": "chat.completion",
+      "created": 1702330813,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+              "content": "{:rating \"positive\" :keywords [\"well-managed service\", \"support\", \"individualised\", \"enjoying a good quality life\", \"COVID-19\"] :phrases [\"residents were enjoying a good quality life\", \"supported to stay safe by staff\", \"residents were respected\"] :summary \"Residents in the centre expressed satisfaction with the well-managed service, individualized support, and their overall quality of life. Despite the challenges posed by COVID-19, residents felt safe and were supported to engage in various activities. The only area for improvement identified was the development of the health and healthcare aspect of the personal plan.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1261,
+        "completion_tokens": 130,
+        "total_tokens": 1391
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 5250,
+    "report-id": "5250-20230201",
+    "response": {
+      "id": "chatcmpl-8UiIcttDJUUSW1JIggqOS8N4GNP1L",
+      "object": "chat.completion",
+      "created": 1702330818,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\" :keywords [\"person-centred care\" \"support\" \"happy\" \"content\" \"knowledgeable\"] :phrases [\"residents were happy and content\" \"person-centred care and supports were provided\" \"residents appeared comfortable with staff\" ] :summary \"The residents of Abbey Village group homes are happy and content with the person-centred care and support they receive. They feel comfortable with the knowledgeable and caring staff.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1700,
+        "completion_tokens": 92,
+        "total_tokens": 1792
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 3069,
+    "report-id": "3069-20220210",
+    "response": {
+      "id": "chatcmpl-8UiIgs2mZkX1eZA3RmyciGlkAR5e9",
+      "object": "chat.completion",
+      "created": 1702330822,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\", \n :keywords [\"compliance\", \"progress\", \"happy\", \"engaged\", \"pleasant\"], \n :phrases [\"very happy and excited\", \"resident spoke positively\", \"resident appeared quite happy and engaged\"], \n :summary \"Residents spoke positively about life in the designated centre, with a calm and relaxed atmosphere. Interactions between residents had improved and opportunities for one-to-one activities had greatly increased.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 674,
+        "completion_tokens": 87,
+        "total_tokens": 761
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 2396,
+    "report-id": "2396-20210722",
+    "response": {
+      "id": "chatcmpl-8UiIj64sadJsbsPQq5xJng4ApA2ji",
+      "object": "chat.completion",
+      "created": 1702330825,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\", :keywords [\"residents\", \"inspector\", \"experience\", \"staff\", \"environment\"], :phrases [\"pleasant and familiar conversations\", \"adequate space for personal belongings\", \"staff listened and were helpful and supportive\"], :summary \"The residents had a positive experience living in the designated centre and felt that the staff were supportive and helpful. The inspector observed pleasant interactions between the residents and staff, and noted that the environment was accessible and well-maintained.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 921,
+        "completion_tokens": 99,
+        "total_tokens": 1020
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 1912,
+    "report-id": "1912-20230321",
+    "response": {
+      "id": "chatcmpl-8UiInq5yMpDy9SXpCjX7fGjx4DAqc",
+      "object": "chat.completion",
+      "created": 1702330829,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"neutral\" :keywords [\"inspection\" \"residents\" \"infection prevention and control\" \"activities\" \"information\"] :phrases [\"limited understanding of the processes\" \"maintain links with their family members\" \"IPC measures deployed by staff protected residents from healthcare-related infections\"] :summary \"This inspection was conducted to monitor infection prevention and control arrangements for residents. The residents had a limited understanding of the processes, but they were supported in engaging in activities and maintaining links with their families. Overall, the IPC measures deployed by staff protected residents from healthcare-related infections, although some areas required improvement.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 563,
+        "completion_tokens": 123,
+        "total_tokens": 686
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 2616,
+    "report-id": "2616-20220517",
+    "response": {
+      "id": "chatcmpl-8UiIr27r0KnslOumCGxrn6GVwr9nf",
+      "object": "chat.completion",
+      "created": 1702330833,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\" :keywords [\"pleasant\" \"comfortable\" \"good quality of life\" \"involved in community\" \"staff shortage\"] :phrases [\"resident support\" \"busy staff\" \"high support needs\"] :summary \"Residents at Realta Service were found to have a pleasant and comfortable living environment, enjoying a good quality of life and being involved in their local community. Despite a staff shortage, the staff on duty were actively supporting the residents with their high support needs.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 949,
+        "completion_tokens": 100,
+        "total_tokens": 1049
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 4880,
+    "report-id": "4880-20210421",
+    "response": {
+      "id": "chatcmpl-8UiIvb4rCAX2lBpNb4TtAGiFK12ls",
+      "object": "chat.completion",
+      "created": 1702330837,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\" :keywords [\"well-managed center\" \"good quality life\" \"effective systems\" \"supportive staff\" \"COVID-19 measures\"] :phrases [\"well managed centre\" \"quality and safety of the service\" \"increased support from staff\" \"residents felt safe\" \"effective outbreak plan\"] :summary \"Residents in the center expressed positive sentiments about the well-managed center, good quality of life, and effective systems. They praised the supportive staff and their ability to adapt to the challenges of COVID-19. Overall, the inspection found the service to be good, with some areas for improvement.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1701,
+        "completion_tokens": 129,
+        "total_tokens": 1830
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 2376,
+    "report-id": "2376-20211125",
+    "response": {
+      "id": "chatcmpl-8UiJ0tpGR0Zx04SQd3DgZPjxaE2Ll",
+      "object": "chat.completion",
+      "created": 1702330842,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+              "content": "{:keywords [\"residents' choice\", \"quality of service\", \"open communication\", \"accommodating\", \"supportive\"] :phrases [\"very happy with the quality of service\", \"staff always made them feel very welcome\", \"improvements required in some areas\"] :rating \"positive\" :summary \"The residents and their families express satisfaction with the quality of service provided at the Woodview designated centre. Despite some areas needing improvement, the staff is described as welcoming, accommodating, and supportive.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1558,
+        "completion_tokens": 86,
+        "total_tokens": 1644
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 5310,
+    "report-id": "5310-20210812",
+    "response": {
+      "id": "chatcmpl-8UiJ4oAhxCQt0I9ZcBxPZuLte9jKZ",
+      "object": "chat.completion",
+      "created": 1702330846,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\" \n :keywords [\"comply\", \"good quality of life\", \"independence\", \"part-time employment\", \"comfortable environment\"] \n :phrases [\"residents spoke positively\", \"good access to preferred activities\", \"support to source part-time employment\", \"residents appeared comfortable\", \"adequate space for residents\"] \n :summary \"Residents of the centre spoke positively about the service they were receiving and the staff supporting them, expressing a good quality of life and independence. They were engaged in their preferred activities and some were even supported in finding part-time employment. Overall, residents were comfortable in their environment, with adequate space to relax.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 791,
+        "completion_tokens": 135,
+        "total_tokens": 926
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 3381,
+    "report-id": "3381-20210415",
+    "response": {
+      "id": "chatcmpl-8UiJ9xEPjrnIwbxuO2Dw2eos6nqYm",
+      "object": "chat.completion",
+      "created": 1702330851,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\" :keywords [\"clean\" \"homely\" \"flowers\" \"vegetables\" \"apartment\"] :phrases [\"bright, clean and homely\" \"resident showed the inspector\" \"care provided was not in line with this residents own wishes\" \"measures had been taken to ensure this did not happen again\" \"individualised activation schedules in place\"] :summary \"The residents expressed satisfaction with the cleanliness and homeliness of the premises, as well as their personal apartments. One resident had concerns about the care not aligning with their wishes, but management took it seriously and made improvements. Daily activities were tailored to the residents' interests and COVID-19 restrictions had some impact.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 840,
+        "completion_tokens": 143,
+        "total_tokens": 983
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 3767,
+    "report-id": "3767-20210520",
+    "response": {
+      "id": "chatcmpl-8UiJHkRUzZwdbwTSYa43nV1CKlagH",
+      "object": "chat.completion",
+      "created": 1702330859,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\", :keywords [\"supported\", \"safe\", \"content\", \"familiar\", \"well-received\"], :phrases [\"evidence that residents were supported to be safe and content\", \"the staff team were familiar with the residents\", \"well-received summer camp initiative\"], :summary \"Residents in the designated centre feel supported, safe, and content. The staff team is familiar with the residents and their needs. Overall, the service provided is positive and well-received.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 973,
+        "completion_tokens": 100,
+        "total_tokens": 1073
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 5513,
+    "report-id": "5513-20220818",
+    "response": {
+      "id": "chatcmpl-8UiJMQhGows10ESPFxWCMRnbgvEOk",
+      "object": "chat.completion",
+      "created": 1702330864,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\" :keywords [\"inspection\" \"infection prevention\" \"hand hygiene\" \"supportive\" \"meaningful activities\"] :phrases [\"provider had put in place systems\" \"visibly clean throughout\" \"resident spoke about daily lives\" \"resident felt well supported\" \"multiple strategies in place to safeguard residents\"] :summary \"The residents expressed positive sentiments towards the inspection and the efforts of the provider in infection prevention and control. They felt well supported by the staff and engaged in meaningful activities during the pandemic. Overall, the residents were satisfied with the living arrangements and the return to engaging with the community.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 819,
+        "completion_tokens": 126,
+        "total_tokens": 945
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 3426,
+    "report-id": "3426-20220210",
+    "response": {
+      "id": "chatcmpl-8UiJQLtPGSDNxtkj9RQz0unjehnLM",
+      "object": "chat.completion",
+      "created": 1702330868,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"neutral\", :keywords [\"information\", \"infection prevention\", \"cleaning\", \"homely\", \"PPE\"], :phrases [\"areas which required further cleaning\", \"houses were generally very homely\", \"use of PPE required review\"], :summary \"Residents were being provided with information around infection prevention and control. While staff were seen to interact positively with residents, it was noted that the use of PPE required review.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1763,
+        "completion_tokens": 91,
+        "total_tokens": 1854
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 3405,
+    "report-id": "3405-20210616",
+    "response": {
+      "id": "chatcmpl-8UiJUo8AEVu81MMvsMahAxdWrZ0lx",
+      "object": "chat.completion",
+      "created": 1702330872,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\" :keywords [\"warm and welcoming\" \"person centred\" \"resident empowerment\" \"self-advocate\" \"positive feedback\"] :phrases [\"loved their home\" \"staff were observed to be professional, kind and caring\" \"residents had revamped the back garden and painted the boundary walls\" \"looking forward to going on holidays again\" \"residents reported that they were happy in their home\"] :summary \"The residents of this care service are overall satisfied and happy, describing the atmosphere as warm and welcoming. They feel listened to and respected, with the staff being professional and caring. The residents are empowered to make their own decisions, have a sense of ownership in their home, and are eagerly looking forward to future holidays.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1001,
+        "completion_tokens": 154,
+        "total_tokens": 1155
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 7874,
+    "report-id": "7874-20230511",
+    "response": {
+      "id": "chatcmpl-8UiJaE3SYwfDktmIZjY7ayqIkgNiJ",
+      "object": "chat.completion",
+      "created": 1702330878,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\" :keywords [\"care\" \"support\" \"residents\" \"staff\" \"activities\"] :phrases [\"person-centred care and support\" \"well-maintained home\" \"residents' individual preferences\" ] :summary \"The residents of the centre expressed positive sentiments about the care, support, and activities provided by the staff in a well-maintained home. The inspection found that the residents received a good quality of care and support.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 677,
+        "completion_tokens": 96,
+        "total_tokens": 773
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 8123,
+    "report-id": "8123-20220405",
+    "response": {
+      "id": "chatcmpl-8UiJeIxG9onJq7aKVF0VLF0I4kBNx",
+      "object": "chat.completion",
+      "created": 1702330882,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\", :keywords [\"enjoyed\", \"supported\", \"good quality of life\", \"comfortable\", \"homely\"], :phrases [\"bright and airy\", \"happy and content\", \"kind and caring in their approach\"], :summary \"Residents in this centre enjoyed a good quality of life and were actively supported by a kind and caring staff team. The centre was comfortable, homely, and had a bright and airy atmosphere.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 974,
+        "completion_tokens": 92,
+        "total_tokens": 1066
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 7915,
+    "report-id": "7915-20230727",
+    "response": {
+      "id": "chatcmpl-8UiJiywPC74l7y9UCPVsCXqXhoeI3",
+      "object": "chat.completion",
+      "created": 1702330886,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\" :keywords [\"inspection\" \"compliance\" \"service\" \"residents\" \"staff\"] :phrases [\"good quality of service\" \"residents enjoyed\" \"staff team were observed\" ] :summary \"The residents enjoyed a good quality of service, with the staff team observed treating and speaking with them in a dignified and caring manner. Despite some areas requiring improvement in training, development, governance, fire safety, and medication management, overall the residents appeared content and comfortable in their home.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 936,
+        "completion_tokens": 106,
+        "total_tokens": 1042
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 7791,
+    "report-id": "7791-20211103",
+    "response": {
+      "id": "chatcmpl-8UiJmBFTY6MQjmbPPhnBkBnOv8xDA",
+      "object": "chat.completion",
+      "created": 1702330890,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\" \n :keywords [\"infection prevention and control practices\" \"residents\" \"hand hygiene\" \"good practice\" \"facilities\"]\n :phrases [\"residents were being treated well\" \"good infection prevention and control practices\" \"resident appeared very relaxed\" ]\n :summary \"Residents in this designated centre were treated well and given information about COVID-19. Good infection prevention and control practices were observed, although there were areas that required improvement, such as the use of the utility room and storage facilities.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1578,
+        "completion_tokens": 107,
+        "total_tokens": 1685
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 5734,
+    "report-id": "5734-20210125",
+    "response": {
+      "id": "chatcmpl-8UiJq7jlSOLFSMXUV72dMIW6WVWGM",
+      "object": "chat.completion",
+      "created": 1702330894,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\", :keywords [\"support\", \"resident\", \"staff\", \"happy\", \"homework\"], :phrases [\"residents requiring support\", \"resident enjoying not going to school\", \"resident is doing well and more involved in the house\", \"resident engaging in homework since COVID-19\", \"family members happy with updates and communication\"], :summary \"The residents in the center are generally happy and supported by the staff. One resident enjoys not going to school and likes being around the house. Another resident is doing well and more involved in the house activities. One resident is engaging in their homework since COVID-19. Family members are satisfied with updates and communication. However, there are concerns about restrictions and their impact on residents' rights.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1242,
+        "completion_tokens": 152,
+        "total_tokens": 1394
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 7923,
+    "report-id": "7923-20220913",
+    "response": {
+      "id": "chatcmpl-8UiJwtzxiCOBBwIHx0ag6gMcgULi0",
+      "object": "chat.completion",
+      "created": 1702330900,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"neutral\" :keywords [\"IPC practices\" \"improvements required\" \"PPE usage\" \"cleaning\" \"premises risks\"] :phrases [\"good IPC practices\" \"improvements required in relation to\" \"adequate storage facilities\" \"visiting the centre\" \"supported to receive COVID-19 vaccines\"] :summary \"The inspection highlighted both positive and negative aspects of the infection prevention and control practices in the community service center. Some improvements were needed in areas such as policy, IPC oversight, PPE usage, cleaning, and premises maintenance. However, residents felt supported and had access to outdoor activities during the COVID-19 pandemic.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1118,
+        "completion_tokens": 136,
+        "total_tokens": 1254
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 5147,
+    "report-id": "5147-20230713",
+    "response": {
+      "id": "chatcmpl-8UiK1NtVtjCXG0NSk5EYLUE8WpEv5",
+      "object": "chat.completion",
+      "created": 1702330905,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+              "content": "{:keywords [\"residents\", \"positive comments\", \"satisfaction\", \"services\", \"activities\"] :phrases [\"engaging in social activities\", \"supporting the resident\", \"positive impact on their quality of life\"] :rating \"positive\" :summary \"The residents expressed satisfaction with the services and activities provided, and there were positive comments about their quality of life. Staff effectively supported the residents and there was ongoing communication to provide a consistent person-centered approach.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1980,
+        "completion_tokens": 79,
+        "total_tokens": 2059
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 1915,
+    "report-id": "1915-20230720",
+    "response": {
+      "id": "chatcmpl-8UiK4ystQNWSCdDuvvn6odSy6UnYs",
+      "object": "chat.completion",
+      "created": 1702330908,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\", :keywords [\"good quality of life\" \"supported\" \"meaningful activities\" \"improvements required\" \"warm and friendly\"], :phrases [\"good quality of life\" \"improvements required in the premises\" \"fire safety\" \"warm and friendly atmosphere\" \"resident's feedback very positive\"], :summary \"Overall, residents had a good quality of life and were supported in engaging in meaningful activities. However, some improvements were needed in the premises and safety measures. The atmosphere in the house was warm and friendly, and residents' feedback was very positive.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1578,
+        "completion_tokens": 120,
+        "total_tokens": 1698
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 2905,
+    "report-id": "2905-20201124",
+    "response": {
+      "id": "chatcmpl-8UiK9QjzFTNeavEO5LbBsW48kNG8d",
+      "object": "chat.completion",
+      "created": 1702330913,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\", \n :keywords [\"residents\", \"communications\", \"COVID-19 outbreak\", \"Inspectors\", \"families\"], \n :phrases [\"high standard of care\", \"supports in place\", \"efforts to provide a meaningful day\"], \n :summary \"The residents had positive sentiments towards the care provided by staff, with families expressing satisfaction and appreciation for the supports and efforts made to maintain family contact and communication. Some concerns were raised regarding the COVID-19 outbreak and communication from the registered provider.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 543,
+        "completion_tokens": 106,
+        "total_tokens": 649
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 5592,
+    "report-id": "5592-20211129",
+    "response": {
+      "id": "chatcmpl-8UiKD9Yyfcw2nYpzQD7dVzc88EiUM",
+      "object": "chat.completion",
+      "created": 1702330917,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\", \n :keywords [\"care and support\", \"person centred\", \"well-being\", \"improvements\", \"residents\"], \n :phrases [\"care and support arrangements\", \"fire precautions\", \"infection control\", \"improvement required\", \"quality care and support\"], \n :summary \"Residents at Benhaven receive person-centred care and support arrangements, promoting their well-being. Although improvements are required in areas such as fire precautions and infection control, overall residents receive quality care and support from staff.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1162,
+        "completion_tokens": 109,
+        "total_tokens": 1271
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 5511,
+    "report-id": "5511-20210414",
+    "response": {
+      "id": "chatcmpl-8UiKIw9EAUnKk2EbkA97dT1ffifPo",
+      "object": "chat.completion",
+      "created": 1702330922,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\" \n :keywords [\"residents\" \"care\" \"support\" \"activities\" \"restrictions\"]\n :phrases [\"receiving appropriate care and support\" \"engaging in activities of their choosing\" \"positive outcomes for residents\"]\n :summary \"Residents are receiving appropriate care and support, engaging in activities of their choosing, and have seen positive outcomes as a result. While some residents found the restrictions challenging, the provider has implemented practices and supports to combat this.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 816,
+        "completion_tokens": 98,
+        "total_tokens": 914
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 1700,
+    "report-id": "1700-20201001",
+    "response": {
+      "id": "chatcmpl-8UiKMEJp2HLxQwoFREUz1umkxHXmz",
+      "object": "chat.completion",
+      "created": 1702330926,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\" :keywords [\"residents\" \"inspector\" \"living\" \"staff\" \"activities\"] :phrases [\"liked living in the locality\" \"staff were nice and helpful\" \"demonstrated a knowledge of the importance of wearing face coverings\"] :summary \"Residents in the centre generally have a positive sentiment towards their living arrangements, with appreciation for their home and the additional living spaces. They also express frustration with peers at times. The staff are seen as supportive and residents are engaged in activities and understand the importance of COVID-19 safety measures.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 451,
+        "completion_tokens": 118,
+        "total_tokens": 569
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 3399,
+    "report-id": "3399-20221213",
+    "response": {
+      "id": "chatcmpl-8UiKRiAihiHEQUz3mrJWQKFtDkMnU",
+      "object": "chat.completion",
+      "created": 1702330931,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\", \n :keywords [\"infection prevention and control\", \"IPC practices\", \"improvements\", \"cleaning\", \"personal protective equipment\"], \n :phrases [\"residents were being protected against the risk of an outbreak of infection\", \"some improvements were required\", \"organisational policy and supporting documents\", \"cleaning, storage of residents’ equipment, and personal protective equipment (PPE)\", \"dedicated IPC station\", \"clean and tidy in most areas\", \"no recent admissions or discharges\", \"residents were supported to have access to allied healthcare professionals\", \"residents were supported to undertake safe leisure and recreational activities\", \"residents' rights were seen to be promoted\", \"goals and care plans in place to support residents\"], \n :summary \"The residents were being protected against the risk of infection through the effective infection prevention and control (IPC) practices in place. However, some improvements were needed in terms of organizational policy, cleaning, storage of residents' equipment, and personal protective equipment (PPE).\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 813,
+        "completion_tokens": 212,
+        "total_tokens": 1025
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 2420,
+    "report-id": "2420-20210301",
+    "response": {
+      "id": "chatcmpl-8UiKYwnvyPM07T80MLFe6T6O3rceb",
+      "object": "chat.completion",
+      "created": 1702330938,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\" :keywords [\"residents\" \"service\" \"staff\" \"feedback\" \"apartment\"] :phrases [\"loved living in the service\" \"staff were very nice\" \"residents appeared happy and content\"] :summary \"Overall, the residents were happy and satisfied with the service provided. They loved their apartments, had positive feedback for the staff, and expressed contentment in their living arrangements.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 818,
+        "completion_tokens": 87,
+        "total_tokens": 905
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 2683,
+    "report-id": "2683-20211102",
+    "response": {
+      "id": "chatcmpl-8UiKc6b1t4eXrQKdhDT5elU1xhLfm",
+      "object": "chat.completion",
+      "created": 1702330942,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\", :keywords [\"supported\", \"good quality of life\", \"meaningful relationships\", \"active role\", \"positive\"], :phrases [\"enjoy a very good quality of life\", \"residents were consulted\", \"active role in decision-making\", \"very pleasant and welcoming\", \"residents felt safe in their home\"], :summary \"The residents in this center are supported and enjoy a good quality of life with meaningful relationships. They play an active role in decision-making and feel safe and happy in their home.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1055,
+        "completion_tokens": 108,
+        "total_tokens": 1163
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 2665,
+    "report-id": "2665-20220816",
+    "response": {
+      "id": "chatcmpl-8UiKg1Thnf23gPv0RFOmx6raGJS1M",
+      "object": "chat.completion",
+      "created": 1702330946,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\", :keywords [\"good quality of life\", \"actively consulted\", \"enjoyed social life\", \"ongoing contact with families\", \"homely feel\"], :phrases [\"residents enjoyed a good quality of life\", \"residents were actively consulted\", \"residents enjoyed a good social life\", \"ongoing contact with families\", \"centre had a homely feel\"], :summary \"The residents enjoyed a good quality of life, were actively consulted, and had a good social life. They also had ongoing contact with their families and felt a sense of homeliness in the center. However, improvements were needed in terms of maintenance and cleaning of domestic appliances.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 723,
+        "completion_tokens": 138,
+        "total_tokens": 861
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 5005,
+    "report-id": "5005-20210928",
+    "response": {
+      "id": "chatcmpl-8UiKmY7f5RvVvxbrfYQ6HDSNaoqmn",
+      "object": "chat.completion",
+      "created": 1702330952,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\", :keywords [\"health and well-being\", \"person-centred care\", \"well-maintained\", \"comfortable living environment\", \"homely feel\"], :phrases [\"health and well-being of residents was promoted\", \"care was provided in a person-centred manner\", \"well-maintained\", \"spacious and comfortable living environment\", \"lovely homely feel\"], :summary \"The residents expressed positive sentiments towards the centre, stating that their health and well-being was promoted and care was provided in a person-centred manner. The centre was well-maintained and provided a comfortable and homely living environment for the residents.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1063,
+        "completion_tokens": 134,
+        "total_tokens": 1197
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 3413,
+    "report-id": "3413-20220215",
+    "response": {
+      "id": "chatcmpl-8UiKrzkssQkX9C2gNDoOlVVMZETgw",
+      "object": "chat.completion",
+      "created": 1702330957,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\", :keywords [\"spacious bungalow\", \"residents\", \"activities\", \"care and support\", \"positive interactions\"], :phrases [\"residents engaging in activities\", \"each resident's happiness and comfort prioritized\", \"kind, caring, and positive interactions\"], :summary \"Residents in the centre are happy, relaxed, comfortable, and content. They are supported by a caring staff team who prioritize their happiness and comfort. Positive interactions were observed between residents and staff throughout the inspection.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1085,
+        "completion_tokens": 103,
+        "total_tokens": 1188
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 5683,
+    "report-id": "5683-20220603",
+    "response": {
+      "id": "chatcmpl-8UiKvMz7YSkfrtSRd1OH2TWLhsuY0",
+      "object": "chat.completion",
+      "created": 1702330961,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"neutral\", \n :keywords [\"well-furnished\", \"homelike\", \"maintenance works\", \"fire safety systems\", \"infection prevention and control practices\"], \n :phrases [\"residents availed of the centre\", \"some maintenance was required\", \"fire doors were held open\", \"facilities and supplies for infection prevention\", \"resident appeared content\"], \n :summary \"The residents' sentiment reflects a generally positive experience, with well-furnished and homelike houses. However, maintenance works were needed in certain areas. The presence of fire safety systems and infection prevention supplies were observed. Overall, the inspection found a neutral rating for the centre.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1309,
+        "completion_tokens": 135,
+        "total_tokens": 1444
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 1913,
+    "report-id": "1913-20230829",
+    "response": {
+      "id": "chatcmpl-8UiL0Xkji4tTHDbcxQs2xHqnpdeRB",
+      "object": "chat.completion",
+      "created": 1702330966,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\" :keywords [\"leadership\" \"governance\" \"management\" \"resources\" \"workforce\"] :phrases [\"effective leadership, governance and management arrangements\" \"use of available resources is planned and managed\" \"staff have the required competencies\" \"information is used to plan and deliver person/child-centered services\" \"health and development is promoted\"] :summary \"The residents have a positive sentiment towards the leadership, governance, and management of the residential service, as well as the use of available resources and a responsive workforce. They also value the use of information for planning and delivering personalized services. Additionally, the residents appreciate the promotion of health and development.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1022,
+        "completion_tokens": 139,
+        "total_tokens": 1161
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 5047,
+    "report-id": "5047-20230405",
+    "response": {
+      "id": "chatcmpl-8UiL6HCfGpmIIvyzCiOLhIqAt4OBZ",
+      "object": "chat.completion",
+      "created": 1702330972,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\" \n :keywords [\"IPC practices\" \"improvements required\" \"adequate arrangements\" \"safe leisure activities\" \"meaningful day\"]\n :phrases [\"good IPC practices and arrangements\" \"improvements required in staff training\" \"clean and tidy premises\" \"residents supported during COVID-19 pandemic\" \"easy-to-read posters promoting residents' rights\"]\n :summary \"Overall, the inspection found good IPC practices in place but identified areas that required improvements. The premises were clean and tidy, and residents were supported during the COVID-19 pandemic. Efforts were being made to ensure all residents had a more meaningful day, and residents' rights were promoted with easy-to-read information.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 871,
+        "completion_tokens": 144,
+        "total_tokens": 1015
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 7799,
+    "report-id": "7799-20210629",
+    "response": {
+      "id": "chatcmpl-8UiLC9qLfvrcEihSMa6KSzJn4P3na",
+      "object": "chat.completion",
+      "created": 1702330978,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\" \n :keywords [\"happy\", \"relaxed\", \"comfortable\", \"access\", \"compatible\"]\n :phrases [\"residents appeared very happy, relaxed and comfortable\" \"residents had good access to their community\" \"residents appeared to be compatible living together\"]\n :summary \"Inspectors found that residents appeared very happy, relaxed, and comfortable living in the center. Residents had good access to their community and appeared to be compatible living together. Some improvements were required to ensure the service provided was safe at all times.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 838,
+        "completion_tokens": 111,
+        "total_tokens": 949
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 4910,
+    "report-id": "4910-20211202",
+    "response": {
+      "id": "chatcmpl-8UiLHmOPpcNt8vr8jLz19TiCw0Oiv",
+      "object": "chat.completion",
+      "created": 1702330983,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\" :keywords [\"comfortable\" \"supportive\" \"accessible\" \"quality of life\" \"privacy\"] :phrases [\"warm and friendly\" \"wide range of activities\" \"comfortably furnished\" \"bright, clean, comfortable and personalised\" \"good quality of life\"] :summary \"Residents at the centre were observed to be comfortable and supported by staff. There were a wide range of activities available and the rooms were warm, clean, and personalized, providing a good quality of life for residents.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 487,
+        "completion_tokens": 106,
+        "total_tokens": 593
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 5625,
+    "report-id": "5625-20230418",
+    "response": {
+      "id": "chatcmpl-8UiLLH2tKH1ZMNCeB8ZTCBk8dQTMB",
+      "object": "chat.completion",
+      "created": 1702330987,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\", :keywords [\"improvement\", \"good quality\", \"safe service\", \"changing needs\", \"care and support\"], \n:phrases [\"made improvement in a number of Regulations\", \"good quality and safe service\", \"recognising residents' changing needs\", \n\"responding appropriately\", \"monitor the quality of care and support\"], \n:summary \"The residents expressed overall positive sentiments about the care and support they receive, attesting to the good quality and safe service provided. They appreciated the staff's attentiveness, the activities available to them, and the consideration given to their preferences. The inspector also identified areas for improvement in the management of personal possessions.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1250,
+        "completion_tokens": 138,
+        "total_tokens": 1388
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 5877,
+    "report-id": "5877-20230609",
+    "response": {
+      "id": "chatcmpl-8UiLQEMVCdG3Dn3o1q67BbcrKSOZ5",
+      "object": "chat.completion",
+      "created": 1702330992,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\" :keywords [\"inspection\" \"residents\" \"care\" \"staff\" \"centre\"] :phrases [\"infection prevention and control\" \"safe and comfortable living environment\" \"dedicated transport\" \"well maintained and furnished accessible garden\" \"good quality of life\"] :summary \"Residents of the centre enjoyed a good quality of life in a safe and comfortable environment. Staff provided support and care tailored to residents' preferences, ensuring their wellbeing and happiness.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 915,
+        "completion_tokens": 97,
+        "total_tokens": 1012
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 5239,
+    "report-id": "5239-20230203",
+    "response": {
+      "id": "chatcmpl-8UiLUw1GmekU4qIHmMjmIVo5KBWLy",
+      "object": "chat.completion",
+      "created": 1702330996,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\", :keywords [\"residents\", \"staff\", \"home\", \"comfortable\", \"support\"], :phrases [\"welcomed to their home\", \"liked Friday\", \"new chair helped them\", \"liked going as they had more independence\", \"residents were observed engaging with staff\"], :summary \"Residents of the centre are happy and comfortable in their home, with staff providing personalized support. The centre is well-managed and respects residents' privacy and dignity, delivering a good quality and safe service.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 749,
+        "completion_tokens": 106,
+        "total_tokens": 855
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 5147,
+    "report-id": "5147-20200903",
+    "response": {
+      "id": "chatcmpl-8UiLYZ0tYDBEjPai4mdDx6ZaDhLoW",
+      "object": "chat.completion",
+      "created": 1702331000,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\" \n :keywords [\"resident\" \"happy\" \"smiling\" \"comfortable\" \"respectful\"]\n :phrases [\"curious and may not adhere to social distancing\" \"observed holding a backpack\" \"interactions between staff members\" \"resident was comfortable in the presence of staff members\" \"inspector did not visit this resident\"]\n :summary \"The residents appear happy and comfortable in the presence of staff members, with respectful interactions observed. One resident was observed holding a backpack as an object of reference for their day service, and another resident was not visited due to being unwell.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 379,
+        "completion_tokens": 125,
+        "total_tokens": 504
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 5490,
+    "report-id": "5490-20220928",
+    "response": {
+      "id": "chatcmpl-8UiLdeutdX6e5M55xLzrPps8ERP60",
+      "object": "chat.completion",
+      "created": 1702331005,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\", :keywords [\"governance\", \"safeguarding concerns\", \"resident interactions\", \"activities\", \"staffing issues\"], :phrases [\"management of safeguarding concerns\", \"residents appeared relaxed\", \"residents enjoyed a variety of activities\", \"staff were caring and respectful\", \"improvements in staffing arrangements\"], :summary \"The residents appeared relaxed and enjoyed a variety of activities, with staff being caring and respectful. There were some safeguarding concerns and staffing issues, but overall the service strives to provide a good quality and person-centred care.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1916,
+        "completion_tokens": 119,
+        "total_tokens": 2035
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 7991,
+    "report-id": "7991-20220829",
+    "response": {
+      "id": "chatcmpl-8UiLi2L6g8U5f5qgal0SOAz8K9T7y",
+      "object": "chat.completion",
+      "created": 1702331010,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\" \n:keywords [\"HSE\" \"review\" \"compliance plan\" \"good quality service\" \"improvement\"]\n:phrases [\"run by the Health Service Executive\" \"review of all HSE centres\" \"compliance plan to strengthen arrangements\" \"good state of repair\" \"staff supported residents\"]\n:summary \"This centre, run by the HSE, underwent a review of its management and safeguarding concerns. The findings led to a compliance plan and subsequent inspections to improve governance, oversight, and safeguarding. Overall, residents receive a good quality service, although improvements are needed in respecting privacy.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1040,
+        "completion_tokens": 129,
+        "total_tokens": 1169
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 1963,
+    "report-id": "1963-20210421",
+    "response": {
+      "id": "chatcmpl-8UiLmCngrVMmTjg6RROTytnKiCzEO",
+      "object": "chat.completion",
+      "created": 1702331014,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\" :keywords [\"happy\" \"support\" \"activities\" \"communication\" \"flexible\"] :phrases [\"great amount of support\" \"enjoyed helping out with household chores\" \"positive impact the staff team had on the lives of their relatives\"] :summary \"Residents expressed happiness and satisfaction with the support they received from the staff. They enjoyed engaging in various activities and felt well-informed due to good communication. The staff were flexible and respectful in their approach.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1295,
+        "completion_tokens": 100,
+        "total_tokens": 1395
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 2446,
+    "report-id": "2446-20210413",
+    "response": {
+      "id": "chatcmpl-8UiLr1koZHWVSW7WMgJCbpZUyDEaX",
+      "object": "chat.completion",
+      "created": 1702331019,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\", :keywords [\"happy\", \"attentive\", \"caring\", \"activities\", \"quality\"], :phrases [\"appeared happy in their home\", \"staff were professional, kind and caring\", \"range of activities on offer\"], :summary \"Residents were generally happy in their home and staff were observed to be attentive and caring. They enjoyed a range of activities and were satisfied with the quality of care provided.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 835,
+        "completion_tokens": 88,
+        "total_tokens": 923
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 2993,
+    "report-id": "2993-20230330",
+    "response": {
+      "id": "chatcmpl-8UiLuLrBShLBqMzB2SRDxt0sB5xRv",
+      "object": "chat.completion",
+      "created": 1702331022,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\" :keywords [\"happy\" \"content\" \"support\" \"residents\" \"quality of care\"] :phrases [\"happy living in the house\" \"residents appeared happy and content\" \"support and advice\" ] :summary \"The residents are happy and content living in the house, with support and advice from staff. The quality of care is reported to be excellent, with positive feedback from both residents and family representatives.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1093,
+        "completion_tokens": 91,
+        "total_tokens": 1184
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 5253,
+    "report-id": "5253-20220228",
+    "response": {
+      "id": "chatcmpl-8UiLypQFaSUi5oej4XdLs5NkPHYz8",
+      "object": "chat.completion",
+      "created": 1702331026,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\", :keywords [\"homely\" \"comfortable\" \"relaxed\" \"staff support\" \"active lifestyles\"], :phrases [\"spacious and provided residents with a comfortable living environment\" \"very relaxed and casual atmosphere\" \"appeared very comfortable in the company of the staff members\" \"resident told inspectors that they were happy in their home\" \"Residents were chatting with staff about their plans for the day\"], :summary \"The residents in this designated centre seem to have a homely and comfortable living environment, where they feel relaxed and supported by the staff. They lead active lifestyles and have access to a variety of activities and outings.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 825,
+        "completion_tokens": 132,
+        "total_tokens": 957
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 2123,
+    "report-id": "2123-20221215",
+    "response": {
+      "id": "chatcmpl-8UiM3AXpNk0U5XGaGvGflc4qmPExb",
+      "object": "chat.completion",
+      "created": 1702331031,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\" :keywords [\"well managed\" \"happy\" \"safe living\" \"warm\" \"clean\"] :phrases [\"well managed and well run centre\" \"happy and felt safe living\" \"warm, clean and homely\" \"minor improvements were required\" \"garden redesign and works were being completed\"] :summary \"The residents are overall happy and feel safe living in a well-managed and clean centre. Minor improvements are being made, including garden redesign.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1119,
+        "completion_tokens": 98,
+        "total_tokens": 1217
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 5054,
+    "report-id": "5054-20210520",
+    "response": {
+      "id": "chatcmpl-8UiM75ZaG5tALKBH2msiD5a3O02Jy",
+      "object": "chat.completion",
+      "created": 1702331035,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\" \n :keywords [\"infection prevention and control guidelines\" \"good quality of care\" \"resident satisfaction\" \"maintenance issues\" \"staff training\"] \n :phrases [\"residents received a good quality of care\" \"positive views and high-level of satisfaction\" \"well maintained, however, some areas for improvement including staff training and premises\"] \n :summary \"Residents received a good quality of care in their home, with positive views and high-level of satisfaction expressed by residents and their families. However, there are some areas for improvement including staff training and maintenance issues.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 751,
+        "completion_tokens": 119,
+        "total_tokens": 870
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 3159,
+    "report-id": "3159-20210915",
+    "response": {
+      "id": "chatcmpl-8UiMCy4k8e5AED0K3cCOXaP2goEmW",
+      "object": "chat.completion",
+      "created": 1702331040,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\" :keywords [\"well-managed\" \"high standard\" \"person-centred\" \"satisfied\" \"comfortable\"] :phrases [\"good oversight of care\" \"enjoy a good quality of life\" \"strong relationships with respite users\" \"very satisfied with the service\" \"comfortable environment for respite users\"] :summary \"The residents expressed satisfaction and enjoyment in the well-managed, high standard, and person-centred services provided at the centre. They felt safe, happy, and well looked after. The staff had strong relationships with the residents and maintained a comfortable environment. Overall, the inspection found positive sentiments from both the residents and their families.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1177,
+        "completion_tokens": 140,
+        "total_tokens": 1317
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 4105,
+    "report-id": "4105-20200923",
+    "response": {
+      "id": "chatcmpl-8UiMHIgG8f7zjEeDSrvr4QMdKgVLK",
+      "object": "chat.completion",
+      "created": 1702331045,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\", :keywords [\"residents\", \"care and support\", \"comfort\", \"friendly interactions\", \"pleasant atmosphere\"], :phrases [\"engaged with the inspector\", \"support from staff\", \"very pleasant and friendly atmosphere\"], :summary \"The residents spoke positively about the care and support they receive, with mentions of cooking lunch, making rugs for family, and staying in a hotel. They also expressed satisfaction with the staff and the pleasant atmosphere in the center.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 521,
+        "completion_tokens": 97,
+        "total_tokens": 618
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 5342,
+    "report-id": "5342-20211208",
+    "response": {
+      "id": "chatcmpl-8UiMLhUGdyhCyjI1HyE5ejdXQlEec",
+      "object": "chat.completion",
+      "created": 1702331049,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\" \n :keywords [\"residents\" \"care\" \"support\" \"good quality\" \"interactions\"] \n :phrases [\"residents appeared in good health and appeared familiar and comfortable with the staff and the environment\" \"observed warm, respectful and meaningful interactions between staff and residents\" \"residents appeared to have received good quality care and support\"] \n :summary \"Based on the inspection, residents appeared to have received good quality care and support, with warm and meaningful interactions between staff and residents. Some improvements were required for safety and compliance.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 736,
+        "completion_tokens": 116,
+        "total_tokens": 852
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 8109,
+    "report-id": "8109-20221006",
+    "response": {
+      "id": "chatcmpl-8UiMPjiE07GKL6J4BRFoOM6ZDmnpj",
+      "object": "chat.completion",
+      "created": 1702331053,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\", :keywords [\"inspection\", \"residents\", \"centre\", \"living environment\", \"activities\"], :phrases [\"safe and comfortable living environment\", \"supported to take part in preferred activities\", \"good quality of life\"], :summary \"The residents of the centre are generally satisfied with their living environment and the activities available to them. They feel supported and have choices in their daily lives. Overall, the inspection found a positive quality of life for the residents.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 962,
+        "completion_tokens": 97,
+        "total_tokens": 1059
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 5059,
+    "report-id": "5059-20220127",
+    "response": {
+      "id": "chatcmpl-8UiMT5ymekKCGA1cKHI609IV860WS",
+      "object": "chat.completion",
+      "created": 1702331057,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"negative\", :keywords [\"residents\", \"service\", \"inspection\", \"staff members\", \"premises\"], :phrases [\"disruption for residents\", \"staff members engage with residents in a respectful manner\", \"infection prevention and control measures require improvement\"], :summary \"The residents expressed concerns about the inspection and did not communicate their views of the service to the inspector. The premises were found to require renovation and upgrade, and the infection prevention and control measures were deemed inadequate.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 542,
+        "completion_tokens": 101,
+        "total_tokens": 643
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 8154,
+    "report-id": "8154-20220928",
+    "response": {
+      "id": "chatcmpl-8UiMXTNkoawOu2wHtcRvFv1bCIdF5",
+      "object": "chat.completion",
+      "created": 1702331061,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"negative\", \n:keywords [\"concerns\", \"review\", \"improvements\", \"issues\", \"staff\"], \n:phrases [\"management of safeguarding concerns\", \"improvements were required\", \"consistent staff were required\", \"issues regarding compatibility\", \"further advances in governance\"], \n:summary \"The residents have concerns about the management of safeguarding and governance in the center, and improvements are required in these areas. There are also issues with staff consistency and compatibility among residents. Overall, the quality of care provided needs further advancement in governance and management processes.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1327,
+        "completion_tokens": 120,
+        "total_tokens": 1447
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 1522,
+    "report-id": "1522-20220812",
+    "response": {
+      "id": "chatcmpl-8UiMcJrUkbCTGAke2l4z11Z4ErLK8",
+      "object": "chat.completion",
+      "created": 1702331066,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\" \n :keywords [\"positive\" \"resident feedback\" \"meals\" \"food\" \"visitors\"]\n :phrases [\"generally positive resident feedback\" \"meals, food, visitors, staff\" \"quality and safety of the service being delivered\"]\n :summary \"No residents were present during this inspection, but positive resident feedback was included in the centre's annual review. The feedback indicated satisfaction with areas such as meals, food, visitors, staff, and overall care and support staff.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 377,
+        "completion_tokens": 104,
+        "total_tokens": 481
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 3730,
+    "report-id": "3730-20210504",
+    "response": {
+      "id": "chatcmpl-8UiMgxz0OBcFgANIlle9SRQKzLzkE",
+      "object": "chat.completion",
+      "created": 1702331070,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+              "content": "{:keywords [\"high quality medical care\", \"support\", \"improvements\", \"staff interaction\", \"personalized bedrooms\"] :phrases [\"high quality medical care and support\", \"improvements needed\", \"warm interactions between residents and staff\", \"spacious en-suite bedrooms\", \"personalized bedrooms promote residents' independence and dignity\"] :rating \"positive\"\n:summary \"The residents generally received high quality medical care and support, although improvements were still needed in certain areas. Staff interactions with the residents were warm and friendly, and the residents' bedrooms were spacious and personalized, promoting their independence and dignity.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1839,
+        "completion_tokens": 122,
+        "total_tokens": 1961
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 4940,
+    "report-id": "4940-20220809",
+    "response": {
+      "id": "chatcmpl-8UiMkZ1tWqWuMgujQn4FVqLcZREd8",
+      "object": "chat.completion",
+      "created": 1702331074,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\", \n :keywords [\"enjoying\", \"active participants\", \"support\", \"improvement\", \"individuality\"], \n :phrases [\"enjoying a good quality life\", \"supported to be active participants\", \"improvement was needed\", \"residents enjoyed having their own personal space\", \"tailored to meet the needs and abilities\"],\n :summary \"Residents are enjoying a good quality of life and are supported to be active participants in their community. Improvement is needed in some systems, but overall, residents are satisfied with the service and appreciate the individuality and support provided.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 937,
+        "completion_tokens": 124,
+        "total_tokens": 1061
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 3078,
+    "report-id": "3078-20221212",
+    "response": {
+      "id": "chatcmpl-8UiMo1mbrNmgYLIWwXaRqph5ajVe1",
+      "object": "chat.completion",
+      "created": 1702331078,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\" \n :keywords [\"unannounced risk inspection\" \"non-compliance\" \"residents' requirements\" \"compliance plan\" \"quality of residents' lives\"] \n :phrases [\"high levels of non-compliance\" \"adverse effect on other residents\" \"staff and person in charge\" \"successful transition of one resident\" \"relaxed environment\"] \n :summary \"The residents expressed satisfaction with the centre and praised the staff. The inspection showed that the provider had addressed previous non-compliance issues and created a positive living environment for the residents.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 849,
+        "completion_tokens": 117,
+        "total_tokens": 966
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 5856,
+    "report-id": "5856-20220413",
+    "response": {
+      "id": "chatcmpl-8UiMtH9ij1SbSKm84e8BrqDW9nmtK",
+      "object": "chat.completion",
+      "created": 1702331083,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\" \n :keywords [\"public health guidance\" \"physical distancing\" \"COVID-19 information\" \"single occupancy bedrooms\" \"maintenance and renovation works\"] \n :phrases [\"residents happy with care\" \"resident's complaint was managed\" \"staff are lovely and helpful\"] \n :summary \"Residents expressed satisfaction with the care provided and enjoyed various activities. There were some areas that needed improvement, such as communication and infection control.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1006,
+        "completion_tokens": 91,
+        "total_tokens": 1097
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 5594,
+    "report-id": "5594-20210129",
+    "response": {
+      "id": "chatcmpl-8UiMxBwf0TeGNW6BU9VqVkTtA9NP5",
+      "object": "chat.completion",
+      "created": 1702331087,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\" \n :keywords [\"good quality of life\" \"choices\" \"supported with education\" \"involved in activities and play\" \"high level of satisfaction\"]\n :phrases [\"staff were very alert to the resident's wishes\" \"parent expressed a very high level of satisfaction\" \"staff in the centre phoned them every evening\" \"Residents' education was supported both by attending school\" \"adequate staff available to support residents to go out\"]\n :summary \"Residents have a good quality of life with choices, education, and enjoyable activities. The parent of a resident expressed a high level of satisfaction with the care and support provided by the staff, praising their commitment and communication. COVID-19 safety protocols were in place, and the inspected rooms were clean and comfortable.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 910,
+        "completion_tokens": 159,
+        "total_tokens": 1069
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 5787,
+    "report-id": "5787-20230524",
+    "response": {
+      "id": "chatcmpl-8UiN3vApKHYMeoKiv1olM54zZCWO7",
+      "object": "chat.completion",
+      "created": 1702331093,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"negative\" :keywords [\"inspection\" \"compliance\" \"pleasant\" \"homely\" \"staff\" \"residents\" \"activities\" \"rooms\" \"information\" \"kitchen/dining room\" \"garden\"  \"engaging\" \"shortage of staff\" \"rights\" \"meaningful day\" \"governance\" \"management\" \"quality\" \"safety\"] :phrases [\"spacious, clean and pleasant home\" \"pleasant and homely atmosphere\" \"staff were familiar with residents\" \"rooms decorated in individual style\" \"easy-read information for residents\" \"imaginative ways of engaging residents\" \"shortage of staff had a negative impact\" \"rights to a meaningful day not upheld\" \"governance and management arrangements\"] :summary \"The residents have a generally positive sentiment, enjoying a pleasant and homely atmosphere with engaging activities. However, a repeated shortage of staff has had a negative impact on residents' rights to a meaningful day.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 974,
+        "completion_tokens": 202,
+        "total_tokens": 1176
+      },
+      "system_fingerprint": null
+    }
+  },
+  {
+    "centre-id": 3921,
+    "report-id": "3921-20220511",
+    "response": {
+      "id": "chatcmpl-8UiNBvQcYicYKgfwPj0iMvaxxAxLa",
+      "object": "chat.completion",
+      "created": 1702331101,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{:rating \"positive\", \n :keywords [\"residents\", \"comfortable\", \"engaged\", \"clean and tidy\", \"person-centred care\"], \n :phrases [\"residents appeared comfortable\", \"engaged in friendly conversation\", \"clean and tidy\", \"person-centred care delivered\", \"deficits in infection prevention and control\"], \n :summary \"The residents of the designated centre appeared comfortable and engaged, communicating their needs to staff. The homes were clean and tidy, and person-centred care was delivered. However, there were some deficits in infection prevention and control.\"}"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 881,
+        "completion_tokens": 118,
+        "total_tokens": 999
+      },
+      "system_fingerprint": null
+    }
+  }
+]
