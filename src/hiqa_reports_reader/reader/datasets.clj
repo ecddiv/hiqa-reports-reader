@@ -1,11 +1,6 @@
 (ns hiqa-reports-reader.reader.datasets
   (:require
-   [clojure.java.io :as io]
-   [clojure.string :as str]
-   [tablecloth.api :as tc]
-   [java-time.api :as jt]
-   [pantomime.extract :as extract]
-   [hiqa-reports-reader.reader.parsers :as p]))
+   [tablecloth.api :as tc]))
 
 ;; For creating tables/preparing datasets
 
@@ -30,31 +25,37 @@
                       (fn [& rows]
                         ((reg-map-cols "Substantially compliant") rows)))))
 
+(defn filter-and-sort-reg-cols [col-names]
+  (sort
+   (filter (fn [kw] (re-find #"Regulation" (name kw))) col-names)))
+
 (defn prepare-main-table [DS]
-  (-> (tc/dataset DS)
-      (tc/drop-missing :centre-id)
-      aggregate-compliance-levels
-      (tc/reorder-columns [:centre-id
-                           :centre-ID-OSV
-                           :fieldwork-ID
-                           :year
-                           :date-of-inspection
-                           :date
-                           :name-of-designated-centre
-                           :address-of-centre
-                           :name-of-provider
-                           :type-of-inspection
-                           :number-of-residents-present
-                           :report-id
-                           :about
-                           :respite-category
-                           :observations
-                           :num-compliant
-                           :num-notcompliant
-                           :num-substantiallycompliant])))
-
-
-
+  (let [dataset (-> (tc/dataset DS)
+                    (tc/drop-missing :centre-id)
+                    aggregate-compliance-levels)
+        sorted-regs (-> dataset
+                        tc/column-names
+                        filter-and-sort-reg-cols)]
+    (-> dataset
+        (tc/reorder-columns (into [:centre-id
+                                   :centre-ID-OSV
+                                   :fieldwork-ID
+                                   :year
+                                   :date-of-inspection
+                                   :date
+                                   :name-of-designated-centre
+                                   :address-of-centre
+                                   :name-of-provider
+                                   :type-of-inspection
+                                   :number-of-residents-present
+                                   :report-id
+                                   :about
+                                   :respite-category
+                                   :observations
+                                   :num-compliant
+                                   :num-notcompliant
+                                   :num-substantiallycompliant]
+                                  sorted-regs)))))
 
 (defn filter-most-recent-inspections-per-centre [DS]
   (reduce (fn  [new-ds centre-row]
