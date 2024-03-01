@@ -67,12 +67,15 @@
 
 
 ;; Utils
+(defn pad-reg-no [reg-no]
+  (if (some (into #{} (rest (range 10))) [(parse-long reg-no)])
+    (str "0" reg-no)
+    reg-no))
+
 (defn keywordize-reg-no [reg-no]
   (keyword
-   (str  "Regulation_" reg-no "_"
+   (str  "Regulation_" (pad-reg-no reg-no) "_"
          (when reg-no (str/replace (hiqa-regulations (parse-long reg-no)) " " "_")))))
-
-
 
 ;; Time and IDs
 
