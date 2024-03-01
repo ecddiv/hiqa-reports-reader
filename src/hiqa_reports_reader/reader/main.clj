@@ -35,14 +35,15 @@
    :row-count (tc/row-count ds)})
 
 (defn make-pdf-table [pdf-directory]
-  (let [reports (list-and-check-files pdf-directory)
-        table (pmap p/process-pdf reports)
-        table-ds (ds/prepare-main-table table)
+  (let [reports           (list-and-check-files pdf-directory)
+        table             (pmap p/process-pdf reports)
+        table-ds          (ds/prepare-main-table table)
         table-most-recent (ds/filter-most-recent-inspections-per-centre table-ds)]
-    {:table table-ds
+    {:table         table-ds
      :table-recents table-most-recent
-     :info (table-info (-> table-ds
-                           (tc/drop-columns :observations)))}))
+     :info          (table-info (-> table-ds
+                                    (tc/drop-columns :observations)))}))
+
 
 (defn process-and-write-outputs!
   "Entry point."

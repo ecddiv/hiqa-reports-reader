@@ -68,9 +68,10 @@
 
 ;; Utils
 (defn pad-reg-no [reg-no]
-  (if (some (into #{} (rest (range 10))) [(parse-long reg-no)])
-    (str "0" reg-no)
-    reg-no))
+  (when reg-no
+    (if (some (into #{} (rest (range 10))) [(parse-long reg-no)])
+      (str "0" reg-no)
+      reg-no)))
 
 (defn keywordize-reg-no [reg-no]
   (keyword
