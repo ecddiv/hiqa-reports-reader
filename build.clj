@@ -7,16 +7,6 @@
 (def main 'hiqa-reports-reader.hiqa-reports-reader)
 (def class-dir "target/classes")
 
-(defn test "Run all the tests." [opts]
-  (let [basis    (b/create-basis {:aliases [:test]})
-        cmds     (b/java-command
-                  {:basis     basis
-                   :main      'clojure.main
-                   :main-args ["-m" "cognitect.test-runner"]})
-        {:keys [exit]} (b/process cmds)]
-    (when-not (zero? exit) (throw (ex-info "Tests failed" {}))))
-  opts)
-
 (defn- uber-opts [opts]
   (assoc opts
          :lib lib :main main
@@ -27,7 +17,7 @@
          :ns-compile [main]
          :java-opts ["-Dorg.apache.commons.logging.Log=org.apache.commons.logging.impl.NoOpLog"]))
 
-(defn ci "Run the CI pipeline of tests (and build the uberjar)." [opts]
+(defn make "Build the uberjar." [opts]
   (b/delete {:path "target"})
   (let [opts (uber-opts opts)]
     (println "\nCopying source...")
