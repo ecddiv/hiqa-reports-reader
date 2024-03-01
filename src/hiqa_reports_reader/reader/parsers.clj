@@ -73,10 +73,17 @@
       (str "0" reg-no)
       reg-no)))
 
-(defn keywordize-reg-no [reg-no]
-  (keyword
-   (str  "Regulation_" (pad-reg-no reg-no) "_"
-         (when reg-no (str/replace (hiqa-regulations (parse-long reg-no)) " " "_")))))
+(defn test-if-registration-regulation [name]
+  (when name
+    (re-find #"registration|Registration|\(" name)))
+
+
+(defn keywordize-reg-no [reg-no name]
+  (if (test-if-registration-regulation name)
+    (keyword (str "Regulation_Registration_" reg-no))
+    (keyword
+     (str  "Regulation_" (pad-reg-no reg-no) "_"
+           (when reg-no (str/replace (hiqa-regulations (parse-long reg-no)) " " "_"))))))
 
 ;; Time and IDs
 
@@ -145,10 +152,9 @@
       (assoc data :name-of-provider "St John of God Community Services CLG")
       data)))
 
-;; TODO Also track the 'registration' regulations - see this report:https://www.hiqa.ie/system/files?file=inspectionreports/3282-the-childrens-sunshine-home-operating-as-lauralynn-childrens-hospice-03-may-2023.pdf
 (defn- parse-compliance-table [pdf-text]
   (let [match (or
-               (re-find #"Regulation Title(.*)Compliance Plan"
+               (re-find #"Regulation Title(.*)Compliance Plan for"
                         (str/replace pdf-text #"\n" " "))
                (re-find #"Regulation Title(.*)" ;; For cases where compliance table is at end of report
                         (str/replace pdf-text #"\n" " ")))]
@@ -158,8 +164,8 @@
 
                   :when (int? (parse-long (str (first line))))
 
-                  :let [[_ reg-no _ judgement] (first (re-seq #"(\d{1,2}):(.*)(Substantially|Not|Compliant)" line))
-                        reg-label (keywordize-reg-no reg-no)
+                  :let [[_ reg-no name judgement] (first (re-seq #"(\d{1,2})[: ](.*)(Substantially|Not|Compliant)" line))
+                        reg-label (keywordize-reg-no reg-no name)
                         full-judgement (case judgement
                                          "Substantially" "Substantially compliant"
                                          "Not"           "Not compliant"
