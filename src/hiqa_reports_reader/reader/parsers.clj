@@ -80,7 +80,7 @@
 
 (defn keywordize-reg-no [reg-no name]
   (if (test-if-registration-regulation name)
-    (keyword (str "Regulation_Registration_" reg-no))
+    (keyword (str "Registration_Reg" reg-no))
     (keyword
      (str  "Regulation_" (pad-reg-no reg-no) "_"
            (when reg-no (str/replace (hiqa-regulations (parse-long reg-no)) " " "_"))))))
