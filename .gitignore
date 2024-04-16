@@ -1,6 +1,8 @@
 .calva/output-window/
 .classpath
 .clj-kondo/.cache
+.clj-kondo
+.DS_Store
 .cpcache
 .eastwood
 .factorypath
@@ -25,3 +27,8 @@
 /checkouts
 /classes
 /target
+CHANGELOG.md
+/test
+/inspection_reports
+/reports
+/resources/.keep

@@ -1,0 +1,53 @@
+col-name,datatype,n-valid,n-missing,min,mean,mode,max,standard-deviation,skew,first,last
+centre-id,int64,3179,0,1388.0,4494.654608367411,,8475.0,1917.1718815808397,0.3973159134791083,8350,5831
+centre-ID-OSV,string,3179,0,,,OSV-0005490,,,,OSV-0008350,OSV-0005831
+fieldwork-ID,string,3179,0,,,MON-0029506,,,,MON-0038253,MON-0028431
+year,int64,3179,0,2020.0,2021.663730732935,,2023.0,0.9607672348273275,-0.09967625613558215,2023,2021
+date-of-inspection,string,3179,0,,,05 October 2021,,,,27 March 2023,17 June 2021
+date,string,3179,0,,,2021-10-05,,,,2023-03-27,2021-06-17
+name-of-designated-centre,string,3179,0,,,The Willows,,,,Oaklands House,Stewarts Care Adult Services Designated Centre 6
+address-of-centre,string,3179,0,,,Cork,,,,Meath,Dublin 20
+name-of-provider,string,3179,0,,,Brothers of Charity Services Ireland CLG,,,,Embrace Community Services Ltd,Stewarts Care Limited
+type-of-inspection,string,3179,0,,,Unannounced,,,,Unannounced,Short Notice Announced
+number-of-residents-present,int64,3131,48,0.0,5.961034813158736,,37.0,4.21465745454728,2.1210908336989447,3,12
+report-id,string,3179,0,,,7925-20230814,,,,8350-20230327,5831-20210617
+about,string,3136,43,,,,,,,"Oaklands house provides a residential service for male and female children under the age of 18 years with the exception of a young person completing their final year of secondary education. Oaklands house is located in the countryside and in close driving distance to several local towns and villages. The centre can cater for up to four residents each with their own bedroom, one with an en-suite facility and the rest are shared bathroom facilities. In addition, the centre has two living room areas and has a large garden. Residents are supported by a team of social care leaders, social care workers and direct support workers who are led by a person in charge.","Designated Centre 6 is comprised of four houses located in housing estates across West Dublin. It provides full time residential care in a community setting, and can accommodate up to 12 adults, with intellectual disabilities. The centre is staffed by care assistants and day service team members, all of who are supported by a person in charge."
+respite-category,string,434,2745,,,,,,,,
+num-compliant,int64,3179,0,0.0,8.262661214218308,,26.0,5.753147218871047,0.11672225359985043,10,2
+num-notcompliant,int64,3179,0,0.0,1.273356401384083,,14.0,1.9795567270207615,2.199853654297465,2,5
+num-substantiallycompliant,int64,3179,0,0.0,2.481597986788298,,15.0,2.178162218226034,1.0331134869684044,3,6
+Regulation_03_Statement_of_purpose,string,1424,1755,,,,,,,,
+Regulation_04_Written_policies_and_procedures,string,333,2846,,,,,,,,
+Regulation_05_Individualised_assessment_and_personal_plan,string,2125,1054,,,Compliant,,,,Compliant,Not compliant
+Regulation_06_Healthcare,string,1754,1425,,,Compliant,,,,Compliant,Not compliant
+Regulation_07_Positive_behaviour_support,string,1785,1394,,,,,,,Compliant,Substantially compliant
+Regulation_08_Protection,string,2295,884,,,Compliant,,,,Compliant,Substantially compliant
+Regulation_09_Residents'_rights,string,1661,1518,,,,,,,Compliant,
+Regulation_10_Communication,string,565,2614,,,,,,,,
+Regulation_11_Visits,string,388,2791,,,,,,,,
+Regulation_12_Personal_possessions,string,411,2768,,,,,,,,
+Regulation_13_General_welfare_and_development,string,1007,2172,,,,,,,,
+Regulation_14_Person_in_charge,string,1616,1563,,,,,,,Compliant,Compliant
+Regulation_15_Staffing,string,2530,649,,,Compliant,,,,Compliant,Not compliant
+Regulation_16_Training_and_staff_development,string,2267,912,,,Compliant,,,,Substantially compliant,Substantially compliant
+Regulation_17_Premises,string,2077,1102,,,,,,,Compliant,Substantially compliant
+Regulation_18_Food_and_nutrition,string,449,2730,,,,,,,Substantially compliant,
+Regulation_19_Directory_of_residents,string,409,2770,,,,,,,,
+Regulation_20_Information_for_residents,string,547,2632,,,,,,,,
+Regulation_21_Records,string,266,2913,,,,,,,Not compliant,
+Regulation_22_Insurance,string,503,2676,,,,,,,,
+Regulation_23_Governance_and_management,string,2648,531,,,Compliant,,,,Substantially compliant,Not compliant
+Regulation_24_Admissions_and_contract_for_the_provision_of_services,string,597,2582,,,,,,,Compliant,
+"Regulation_25_Temporary_absence,_transition_and_discharge_of_residents",string,184,2995,,,,,,,,
+Regulation_26_Risk_management_procedures,string,2123,1056,,,Compliant,,,,,Not compliant
+Regulation_27_Protections_against_infection,string,2775,404,,,Compliant,,,,Not compliant,Compliant
+Regulation_28_Fire_precautions,string,2121,1058,,,,,,,Compliant,Substantially compliant
+Regulation_29_Medicines_and_pharmaceutical_services,string,609,2570,,,,,,,,
+Regulation_30_Volunteers,string,58,3121,,,,,,,,
+Regulation_31_Notification_of_incidents,string,1498,1681,,,,,,,,
+Regulation_32_Notifications_of_periods_when_person_in_charge_is_absent,string,50,3129,,,,,,,,
+Regulation_33_Notifications_of_procedures_and_arrangements_for_periods_when_person_in_charge_is_absent,string,47,3132,,,,,,,,
+Regulation_34_Complaints_procedure,string,1082,2097,,,,,,,,Substantially compliant
+Registration_Reg5,string,618,2561,,,,,,,,
+Registration_Reg8,string,63,3116,,,,,,,,
+Registration_Reg7,string,36,3143,,,,,,,,
